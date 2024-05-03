@@ -6,15 +6,16 @@ nav {
  text-align: center;
 }
 
-a {
-  
-}
-
 #inside {
   width: 70%;
   height: 85%;
   background-color: white;
   border-radius: 10px;
+}
+
+#mainText {
+  display: flex;
+  justify-content: center;
 }
 
 #outside {
