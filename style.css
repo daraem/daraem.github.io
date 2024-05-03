@@ -18,14 +18,14 @@ nav {
  margin-top: 2%;
 }
 
-a {
+.href {
   margin-right: 5%;
   margin-left: 5%;
   text-decoration: none;
   color: black;
 }
 
-a:hover {
+.href:hover {
   text-decoration: underline;
 }
 
@@ -55,6 +55,9 @@ a:hover {
 }
 
 img {
+
+  margin-top: 1%;
+
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -71,4 +74,16 @@ h1, p, a {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+a {
+  margin-left: 0.5%;
+  color: black;
+  text-decoration: underline;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
