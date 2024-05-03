@@ -1,6 +1,5 @@
 div {
-    display: flex;
-    height: 100%;
-    align-items: center;
-    align-content: center;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
