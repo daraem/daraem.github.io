@@ -3,7 +3,6 @@ body, #outside {
 }
 
 nav {
- border: 1px solid red;
  text-align: center;
 }
 
@@ -25,7 +24,6 @@ a {
   justify-content: center;
 }
 
-h1 {
+h1, p {
     text-align: center;
-    color: blue;
 }
