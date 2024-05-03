@@ -2,11 +2,34 @@ body, #outside {
   background-color: gray;
 }
 
+body,html {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+nav {
+ text-align: center;
+}
+
 #inside {
-  width: 85%;
+  width: 70%;
   height: 85%;
   background-color: white;
   border-radius: 10px;
+}
+
+#mainText {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#secondText {
+  width: 50%;
 }
 
 #outside {
@@ -16,13 +39,17 @@ body, #outside {
   justify-content: center;
 }
 
-#Construction {
-    display: grid;
-    justify-content: center;
-    align-items: center;
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
-h1 {
-    text-align: center;
-    color: blue;
+#par {
+  text-align: justify;
+}
+
+h1, p {
+  text-align: center;
 }
