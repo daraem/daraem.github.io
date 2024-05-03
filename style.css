@@ -4,6 +4,7 @@ body, #outside {
 
 nav {
  border: 1px solid red;
+ text-align: center;
 }
 
 a {
