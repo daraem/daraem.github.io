@@ -5,6 +5,11 @@ body, #outside {
 nav {
  width: 100%;
  border: 1px solid red;
+ text-align: center;
+}
+
+a {
+  margin: 15%;
 }
 
 #inside {
