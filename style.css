@@ -1,4 +1,22 @@
-div {
+body, #outside {
+  background-color: gray;
+}
+
+#inside {
+  width: 85%;
+  height: 85%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#outside {
+  display: flex; 
+  height: 100vh; 
+  align-items: center;
+  justify-content: center;
+}
+
+#Construction {
     display: grid;
     justify-content: center;
     align-items: center;
@@ -6,4 +24,5 @@ div {
 
 h1 {
     text-align: center;
+    color: blue;
 }
