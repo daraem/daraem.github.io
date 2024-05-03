@@ -1,5 +1,9 @@
 div {
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
 }
