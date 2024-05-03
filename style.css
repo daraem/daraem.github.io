@@ -2,6 +2,10 @@ body, #outside {
   background-color: gray;
 }
 
+nav {
+ width: 100%;
+}
+
 #inside {
   width: 55%;
   height: 85%;
