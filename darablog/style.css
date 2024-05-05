@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body, #outside {
+  background-color: gray;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+nav {
+ text-align: center;
+ margin-top: 2%;
+}
+
+.href {
+  margin-right: 5%;
+  margin-left: 5%;
+  text-decoration: none;
+  color: black;
+}
+
+.href:hover {
+  text-decoration: underline;
+}
+
+#inside {
+  width: 40%;
+  height: 95%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#mainText {
+  margin-left: 5%;
+  margin-right: 5%;
+
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+#secondText {
+  width: 90%;
+}
+
+#outside {
+  display: flex; 
+  height: 100%; 
+  align-items: center;
+  justify-content: center;
+}
+
+#penpen {
+  margin-top: 2%;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 45%;
+}
+
+p{
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1, a {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  margin-left: 0.5%;
+  color: black;
+  text-decoration: underline;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#spans {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+#spansC {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+svg {
+  width: 50px;
+  height: 50px;
+}
+
+#svgC {
+  width: 150px;
+  height: 150px;
+}
+
+span {
+  margin-top: 1%;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+#typing {
+  margin-top: 10%;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 45%;
+}
+
+.bold {
+ font-weight: bold;
+ margin:0;
+}
+
+#title { 
+  margin: 0;
+  margin-top: 1%;
+}
+
+#imgC {
+  width: 150px;
+  height: 150px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} 
+
+#aC {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 20%;
+  margin-top: 15%;
+}
+
+#gitRep {
+  margin-top: 5%;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+#fgimg {
+  width: 350px;
+  height: 350px;
+
+  margin-top: 2%;
+  margin-bottom: 2%;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sign {
+  text-align: right;
+}
