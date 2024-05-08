@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fishing Game Status</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="outside">
+        <div id="inside">
+          <nav class="menu">
+            <a class="href" href="/">Home</a>
+            <a class="href" href="/Projects">Projects</a>
+            <a class="href" href="/About">About</a>
+            <a class="href" href="/Devblog">Devblog</a>
+            <a class="href" href="/Contact">Contact</a>
+          </nav>
+
+          <h1>08-05-24 Page system test</h1>
+          <div id="mainText">
+            <div id="secondText">
+                <video width="320" height="240" controls>
+                    <source src="src/pagesTest.mp4" type="video/mp4">
+                    Cannot load
+                  </video>                
+                  <p>My thoughts ended up being true so I got my page system working. It works by dividing the amount of available fishes by the max number of fishes per page. Then for each page 
+                    create a container of divs. The range of fishes (divs) is given by the formula:</p>
+                  <p class="bold">( (pageIndex + 1) * fishesPerPage - fishesPerPage, (pageIndex + 1) * fishesPerPage )</p>
+                  <p>So in my case it goes from (0 - 7), (8 - 15), (16 - 23)... Being pageIndex [0,1,2,3,4,5...] and 8 fishes per page.</p>
+                  <p>I will know focus on the style: adding real buttons, adjusting sizes, displaying fish image, name...</p>
+                <p id="sign">Daraem</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+</body>
+</html>

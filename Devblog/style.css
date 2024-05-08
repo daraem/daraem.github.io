@@ -69,34 +69,33 @@ nav {
 }
 
 h2 {
-    margin: 0;
+  margin: 0;
 
-    text-align: left;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-p {
-    margin: 0;
-
-    text-align: left;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-h1, a {
-  text-align: center;
+  text-align: left;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
+p {
+  margin: 0;
+
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1, a {
+text-align: center;
+font-family: "Poppins", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
 a {
-  margin-left: 0.5%;
-  color: black;
-  text-decoration: underline;
+color: black;
+text-decoration: underline;
 }
 
 .flex {
