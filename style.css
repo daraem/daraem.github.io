@@ -65,6 +65,10 @@ nav {
 }
 
 #par {
+  text-align: justify;
+}
+
+#mainpar {
   text-align: center;
 }
 
